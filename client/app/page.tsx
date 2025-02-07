@@ -32,7 +32,7 @@ export default function Home() {
       toast.success('Note added successfully!')
       setTitle('')
       setContent('')
-    } catch (error) {
+    } catch {
       toast.error('Failed to add note')
     }
   }

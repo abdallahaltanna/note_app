@@ -1,7 +1,5 @@
 import React from 'react'
-import INote from '../../src/interfaces/noteInterface'
-
-interface NoteCardProps extends INote {}
+import NoteCardProps from '../../src/interfaces/noteInterface'
 
 const NoteCard: React.FC<NoteCardProps> = ({ title, content }) => (
   <div className="p-4 border rounded shadow">
